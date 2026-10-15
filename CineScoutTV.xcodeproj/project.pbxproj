@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E89E330A30814EFB00B02B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E89E32F430814EF900B02B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E89E32FB30814EF900B02B42;
+			remoteInfo = CineScoutTV;
+		};
+		E89E331430814EFB00B02B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E89E32F430814EF900B02B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E89E32FB30814EF900B02B42;
+			remoteInfo = CineScoutTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E89E32FC30814EF900B02B42 /* CineScoutTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CineScoutTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89E330930814EFB00B02B42 /* CineScoutTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CineScoutTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89E331330814EFB00B02B42 /* CineScoutTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CineScoutTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E89E32FE30814EF900B02B42 /* CineScoutTV */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CineScoutTV;
+			sourceTree = "<group>";
+		};
+		E89E330C30814EFB00B02B42 /* CineScoutTVTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CineScoutTVTests;
+			sourceTree = "<group>";
+		};
+		E89E331630814EFB00B02B42 /* CineScoutTVUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CineScoutTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E89E32F930814EF900B02B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		E89E330630814EFB00B02B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		E89E331030814EFB00B02B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E89E32F330814EF900B02B42 = {
+			isa = PBXGroup;
+			children = (
+				E89E32FE30814EF900B02B42 /* CineScoutTV */,
+				E89E330C30814EFB00B02B42 /* CineScoutTVTests */,
+				E89E331630814EFB00B02B42 /* CineScoutTVUITests */,
+				E89E32FD30814EF900B02B42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E89E32FD30814EF900B02B42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E89E32FC30814EF900B02B42 /* CineScoutTV.app */,
+				E89E330930814EFB00B02B42 /* CineScoutTVTests.xctest */,
+				E89E331330814EFB00B02B42 /* CineScoutTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E89E32FB30814EF900B02B42 /* CineScoutTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E89E331B30814EFB00B02B42 /* Build configuration list for PBXNativeTarget "CineScoutTV" */;
+			buildPhases = (
+				E89E32F830814EF900B02B42 /* Sources */,
+				E89E32F930814EF900B02B42 /* Frameworks */,
+				E89E32FA30814EF900B02B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				E89E32FE30814EF900B02B42 /* CineScoutTV */,
+			);
+			name = CineScoutTV;
+			productName = CineScoutTV;
+			productReference = E89E32FC30814EF900B02B42 /* CineScoutTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E89E330830814EFB00B02B42 /* CineScoutTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E89E331E30814EFB00B02B42 /* Build configuration list for PBXNativeTarget "CineScoutTVTests" */;
+			buildPhases = (
+				E89E330530814EFB00B02B42 /* Sources */,
+				E89E330630814EFB00B02B42 /* Frameworks */,
+				E89E330730814EFB00B02B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E89E330B30814EFB00B02B42 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E89E330C30814EFB00B02B42 /* CineScoutTVTests */,
+			);
+			name = CineScoutTVTests;
+			productName = CineScoutTVTests;
+			productReference = E89E330930814EFB00B02B42 /* CineScoutTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E89E331230814EFB00B02B42 /* CineScoutTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E89E332130814EFB00B02B42 /* Build configuration list for PBXNativeTarget "CineScoutTVUITests" */;
+			buildPhases = (
+				E89E330F30814EFB00B02B42 /* Sources */,
+				E89E331030814EFB00B02B42 /* Frameworks */,
+				E89E331130814EFB00B02B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E89E331530814EFB00B02B42 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E89E331630814EFB00B02B42 /* CineScoutTVUITests */,
+			);
+			name = CineScoutTVUITests;
+			productName = CineScoutTVUITests;
+			productReference = E89E331330814EFB00B02B42 /* CineScoutTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E89E32F430814EF900B02B42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					E89E32FB30814EF900B02B42 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					E89E330830814EFB00B02B42 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = E89E32FB30814EF900B02B42;
+					};
+					E89E331230814EFB00B02B42 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = E89E32FB30814EF900B02B42;
+					};
+				};
+			};
+			buildConfigurationList = E89E32F730814EF900B02B42 /* Build configuration list for PBXProject "CineScoutTV" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E89E32F330814EF900B02B42;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E89E32FD30814EF900B02B42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E89E32FB30814EF900B02B42 /* CineScoutTV */,
+				E89E330830814EFB00B02B42 /* CineScoutTVTests */,
+				E89E331230814EFB00B02B42 /* CineScoutTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E89E32FA30814EF900B02B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		E89E330730814EFB00B02B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		E89E331130814EFB00B02B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E89E32F830814EF900B02B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		E89E330530814EFB00B02B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		E89E330F30814EFB00B02B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E89E330B30814EFB00B02B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E89E32FB30814EF900B02B42 /* CineScoutTV */;
+			targetProxy = E89E330A30814EFB00B02B42 /* PBXContainerItemProxy */;
+		};
+		E89E331530814EFB00B02B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E89E32FB30814EF900B02B42 /* CineScoutTV */;
+			targetProxy = E89E331430814EFB00B02B42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E89E331930814EFB00B02B42 /* Debug configuration for PBXProject "CineScoutTV" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		E89E331A30814EFB00B02B42 /* Release configuration for PBXProject "CineScoutTV" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 27.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E89E331C30814EFB00B02B42 /* Debug configuration for PBXNativeTarget "CineScoutTV" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it22626974.CineScoutTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		E89E331D30814EFB00B02B42 /* Release configuration for PBXNativeTarget "CineScoutTV" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it22626974.CineScoutTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		E89E331F30814EFB00B02B42 /* Debug configuration for PBXNativeTarget "CineScoutTVTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it22626974.CineScoutTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CineScoutTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CineScoutTV";
+				TVOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		E89E332030814EFB00B02B42 /* Release configuration for PBXNativeTarget "CineScoutTVTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it22626974.CineScoutTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CineScoutTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CineScoutTV";
+				TVOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		E89E332230814EFB00B02B42 /* Debug configuration for PBXNativeTarget "CineScoutTVUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it22626974.CineScoutTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = CineScoutTV;
+			};
+			name = Debug;
+		};
+		E89E332330814EFB00B02B42 /* Release configuration for PBXNativeTarget "CineScoutTVUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it22626974.CineScoutTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = CineScoutTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E89E32F730814EF900B02B42 /* Build configuration list for PBXProject "CineScoutTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89E331930814EFB00B02B42 /* Debug configuration for PBXProject "CineScoutTV" */,
+				E89E331A30814EFB00B02B42 /* Release configuration for PBXProject "CineScoutTV" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		E89E331B30814EFB00B02B42 /* Build configuration list for PBXNativeTarget "CineScoutTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89E331C30814EFB00B02B42 /* Debug configuration for PBXNativeTarget "CineScoutTV" */,
+				E89E331D30814EFB00B02B42 /* Release configuration for PBXNativeTarget "CineScoutTV" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		E89E331E30814EFB00B02B42 /* Build configuration list for PBXNativeTarget "CineScoutTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89E331F30814EFB00B02B42 /* Debug configuration for PBXNativeTarget "CineScoutTVTests" */,
+				E89E332030814EFB00B02B42 /* Release configuration for PBXNativeTarget "CineScoutTVTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		E89E332130814EFB00B02B42 /* Build configuration list for PBXNativeTarget "CineScoutTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89E332230814EFB00B02B42 /* Debug configuration for PBXNativeTarget "CineScoutTVUITests" */,
+				E89E332330814EFB00B02B42 /* Release configuration for PBXNativeTarget "CineScoutTVUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E89E32F430814EF900B02B42 /* Project object */;
+	validationLevel = 1;
+}
